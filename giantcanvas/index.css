@@ -1,0 +1,31 @@
+#canvas {
+    border: 1px solid #aaa;
+}
+.main {
+    width: 1366px;
+    height: 768px;
+}
+.left {
+    float: left;
+}
+#thumb {
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+}
+#editBtn {
+    margin: 20px 20px 20px 50px;
+}
+#rangeBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid red;
+    background-color: rgba(200, 0, 0, 0.2);
+    width: 102px;
+    height: 77px;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
